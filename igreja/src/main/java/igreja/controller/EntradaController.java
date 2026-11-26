@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import igreja.entity.Entradas;
 import igreja.repository.EntradaRepository;
 
-@CrossOrigin(origins = "http://127.0.0.1:5500")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("tesouraria/entradas")
 public class EntradaController {
